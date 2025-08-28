@@ -9,7 +9,7 @@
 		"lint": "biome lint --write .",
 		"format": "biome format --write .",
 		"check": "biome check --write .",
-		"prepare": "if [ \"$NODE_ENV\" != \"production\" ]; then husky; fi"
+		"prepare": "husky install"
 	},
 	"dependencies": {
 		"@hookform/resolvers": "^5.2.1",
@@ -42,6 +42,7 @@
 		"class-variance-authority": "^0.7.1",
 		"clsx": "^2.1.1",
 		"cmdk": "^1.1.1",
+		"country-state-city": "^3.2.1",
 		"date-fns": "^4.1.0",
 		"embla-carousel-react": "^8.6.0",
 		"lucide-react": "^0.539.0",
@@ -53,7 +54,9 @@
 		"react-day-picker": "^9.9.0",
 		"react-dom": "^19.0.0",
 		"react-hook-form": "^7.62.0",
+		"react-international-phone": "^4.6.0",
 		"react-resizable-panels": "^3.0.4",
+		"react-select-country-list": "^2.2.3",
 		"sonner": "^2.0.7",
 		"tailwind-merge": "^3.3.1",
 		"zod": "^4.0.17"
